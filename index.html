@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+<title>TikiTech</title>
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+<style>
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+h1 {
+    font-size: 18px;
+    margin-top: 30px;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body, div {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+div {
+    flex-direction: column;
+}
+img {
+    width: 225px;
+    height: 225px;
+}
+li::before {
+    content: '';
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top: 2px;
+    margin: auto 4px;
+    background-repeat: no-repeat;
+    opacity: 0.65;
+}
+.linkedin::before {
+    background-image: url(linkedin.svg);
+}
+.github::before {
+    background-image: url(github.svg);
+}
+</style>
+</head>
+<body>
+<div>
+<img src="tikitech-small.png" alt="TikiTech motif in cartoon style of Daniel lying in a hammock on a tropical island with a laptop in one hand and a cocktail in the other" />
+<h1>Daniel Simmons</h1>
+<ul>
+<li class="linkedin"><a href="https://www.linkedin.com/in/dansimau">LinkedIn</a></li>
+<li class="github"><a href="https://github.com/dansimau">GitHub</a></li>
+</ul>
+</div>
+</body>
+</html>
